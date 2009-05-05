@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, InputTestActivity!</string>
+    <string name="app_name">InputSample</string>
+<string name="label_number">Number input</string>
+<string name="label_string">String input</string>
+<string name="label_search">Search Input</string>
+</resources>
