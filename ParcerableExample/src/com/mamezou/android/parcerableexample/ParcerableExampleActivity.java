@@ -57,12 +57,14 @@ public class ParcerableExampleActivity extends Activity {
 
 	@Override
 	protected void onResume() {
+		super.onResume();
 		Intent intent = new Intent(IExampleParcelableService.class.getName());
 		bindService(intent, conn, BIND_AUTO_CREATE);
 	}
 
 	@Override
 	protected void onPause() {
+		super.onPause();
 		unbindService(conn);
 	}
 }
